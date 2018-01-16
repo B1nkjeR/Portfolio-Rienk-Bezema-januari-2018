@@ -9,6 +9,8 @@
 
 
 html{
+  font-size: 22px;
+  line-height: 1.8;
   background-color: #a3bdb8;
   width:100%;
   font-family: 'Raleway', sans-serif;
@@ -40,10 +42,9 @@ html{
 
 .banner {
   color: #F3C441;
-  font-size: 22pt;
-  width: auto;
+  font-size: 2em;
   width:100%;
-  height:auto;
+  height: auto;
   background-color: #27476D;
   padding-top: 6px;
   padding-left: 5px;
@@ -53,8 +54,8 @@ html{
 
 .menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 1px;
+    padding: 1px;
 }
 
 .menu li {
@@ -71,74 +72,69 @@ html{
 
 .col-2{
 margin-right: 15px;
+background-color: #a3bdb8;
+
 }
 
 .col-3{
-  background-color: #FFFFFF;
+  background-color: #a3bdb8;
 }
 
 .col-9{
   padding-left: 10%;
   padding-right: 15%;
   width: 80%;
+  background-color: #a3bdb8;
 }
 
-.col-12{
-  padding-left: 5%;
+.col-10{
+  padding-left: 10%;
+  padding-right: 5%;
+  width: 80%;
+  background-color: #a3bdb8;
+}
+
+.col-12 {
+  background-color: #83A69F;
+  color:#5C6769;
+  padding-left: 10%;
+  padding-right: 15%;
   width: 100%;
-  background-color: #ffffff;
+  height: 120px;
 }
 
 h1{
+  font-size: 5em;
   color:#AC1032;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 h2{
-  color:#FFFFFF;
-  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  color:#27476D;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 h3{
   padding-top: 10em;
   margin-left: 60%;
-  font-size: 2em;
+  font-size: 3em;
   color:#AC1032;
   font-family: 'Reenie Beanie', cursive;
 }
 
 h3a{
-  font-size: 2em;
+  font-size: 3em;
   color:#AC1032;
   font-family: 'Reenie Beanie', cursive;
 }
 
-h4{
-  color:#FFFFFF;
-  font-family: 'Raleway', sans-serif;
-}
-
-h5{
-  color:#FFFFFF;
-  font-family: 'Raleway', sans-serif;
-}
-
-h6{
-  color:#FFFFFF;
-  font-family: 'Raleway', sans-serif;
-}
-
 p{
+  padding-bottom: 5px;
   color:#000000;
-  font-size: 12pt;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
-
-/* p1{
-  color:#18705E;
-  font-size: 12pt;
-  font-family: 'Raleway', sans-serif;
-} */
 
 a{
   color:#FFFFFF;
@@ -153,7 +149,7 @@ a:hover{
 }
 
 a1{
-  font-size: 2em;
+  font-size: 40pt;
   color:#AC1032;
   font-family: 'Reenie Beanie', cursive;
   text-decoration: none;
@@ -164,7 +160,7 @@ a1:hover{
 }
 
 .blockquote {
-  background: #a3bdb8;
+  background-color: #a3bdb8;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 	font-family: 'Raleway', sans-serif;
