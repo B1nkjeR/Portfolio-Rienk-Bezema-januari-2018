@@ -1,49 +1,82 @@
-*{
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
-
-
-html{
+html {
   font-size: 22px;
   line-height: 1.8;
   background-color: #a3bdb8;
-  width:100%;
+  width: 100%;
   font-family: 'Raleway', sans-serif;
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 [class*="col-"] {
-    float: right;
-    padding: 15px;
+  float: right;
+  padding: 15px;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 70%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 70%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
 
 .banner {
   color: #F3C441;
   font-size: 2em;
-  width:100%;
+  width: 100%;
   height: auto;
   background-color: #27476D;
   padding-top: 6px;
@@ -53,41 +86,40 @@ html{
 }
 
 .menu ul {
-    list-style-type: none;
-    margin: 1px;
-    padding: 1px;
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
 }
 
 .menu li {
-    padding: 5px;
-    margin-bottom: 3px;
-    background-color: #18705E;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 5px;
+  margin-bottom: 3px;
+  background-color: #18705E;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .menu li:hover {
-    background-color: #ECEDF2;
+  background-color: #ECEDF2;
 }
 
-.col-2{
-margin-right: 15px;
-background-color: #a3bdb8;
-
-}
-
-.col-3{
+.col-2 {
+  margin-right: 15px;
   background-color: #a3bdb8;
 }
 
-.col-9{
+.col-3 {
+  background-color: #a3bdb8;
+}
+
+.col-9 {
   padding-left: 10%;
   padding-right: 15%;
   width: 80%;
   background-color: #a3bdb8;
 }
 
-.col-10{
+.col-10 {
   padding-left: 10%;
   padding-right: 5%;
   width: 80%;
@@ -96,88 +128,89 @@ background-color: #a3bdb8;
 
 .col-12 {
   background-color: #83A69F;
-  color:#5C6769;
+  color: #5C6769;
   padding-left: 10%;
   padding-right: 15%;
   width: 100%;
   height: 120px;
 }
 
-h1{
+h1 {
   font-size: 5em;
-  color:#AC1032;
+  color: #AC1032;
   font-family: 'Reenie Beanie', cursive;
 }
 
-h2{
+h2 {
   font-size: 3em;
-  color:#27476D;
+  color: #27476D;
   font-family: 'Reenie Beanie', cursive;
 }
 
-h3{
+h3 {
   padding-top: 10em;
   margin-left: 60%;
   font-size: 3em;
-  color:#AC1032;
+  color: #AC1032;
   font-family: 'Reenie Beanie', cursive;
 }
 
-h3a{
+h3a {
   font-size: 3em;
-  color:#AC1032;
+  color: #AC1032;
   font-family: 'Reenie Beanie', cursive;
 }
 
-p{
+p {
   padding-bottom: 5px;
-  color:#000000;
+  color: #000000;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
 
-a{
-  color:#FFFFFF;
+a {
+  color: #FFFFFF;
   font-weight: bolder;
   font-size: 18pt;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
 }
 
-a:hover{
-  color:#AC1032;
+a:hover {
+  color: #AC1032;
 }
 
-a1{
-  font-size: 40pt;
-  color:#AC1032;
+a1 {
+  font-size: 25pt;
+  color: #AC1032;
   font-family: 'Reenie Beanie', cursive;
   text-decoration: none;
 }
 
-a1:hover{
-  color:darkblue;
+a1:hover {
+  color: darkblue;
 }
 
 .blockquote {
   background-color: #a3bdb8;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .blockquote:before {
   color: #CC7A00;
   content: open-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 .blockquote::after {
   color: #CC7A00;
   content: close-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
   margin-left: 0.25em;
   vertical-align: -0.4em;
@@ -185,13 +218,12 @@ a1:hover{
 
 .blockquote p {
   display: inline;
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
