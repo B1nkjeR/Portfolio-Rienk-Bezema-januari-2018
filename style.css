@@ -30,7 +30,10 @@ html {
 }
 
 .col-2 {
+  margin-top: 5%;
   width: 16.66%;
+  position: fixed;
+  background-color: #EDECF2;
 }
 
 .col-3 {
@@ -77,6 +80,7 @@ html {
   color: #F3C441;
   font-size: 2em;
   width: 100%;
+  position: fixed;
   height: auto;
   background-color: #27476D;
   padding-top: 6px;
@@ -181,7 +185,8 @@ a:hover {
 }
 
 a1 {
-  font-size: 25pt;
+  font-size: 22pt;
+  text-align: left;
   color: #AC1032;
   font-family: 'Reenie Beanie', cursive;
   text-decoration: none;
@@ -227,6 +232,7 @@ a1:hover {
     width: 100%;
   }
 }
-.footer{
+
+.footer {
   font-size: 9pt;
 }
